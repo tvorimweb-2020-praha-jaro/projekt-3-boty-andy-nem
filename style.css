@@ -21,3 +21,163 @@ body {
 */
 
 /* ----- zde zacni psat vlastni css ----- */
+
+body{
+    background-color: #f5f5f5;
+}
+
+
+.zbozi{
+    display: flex;
+    width: 670px;
+    height: 440px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px #f5f5f5;
+    margin: 150px auto;
+}
+
+.vizual{
+    width: 50%;
+    position: relative;
+    padding: 30px;
+    margin: 0px;
+    background-image: linear-gradient(#06d7c1, #50cc49);
+    border-radius: 10px 0 0 10px;
+}
+
+
+.slogan{
+    font-family: 'Rubik';
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    position: absolute;
+    top: 60px;
+    left: 30x;
+    margin-top: 30px;
+}
+
+.logo{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.bota{
+   position: absolute;
+    bottom: -1px;
+    left: -90px;
+
+}
+
+.cenovka{
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+
+}
+
+.cena{
+    font-family: "Rubik";
+    font-size: 28px;
+    font-weight: 500;
+    color: white;
+    position: absolute;
+    bottom: 17px;
+    right: 0px;
+    
+    
+
+}
+
+.zaruka{
+    font-family: "Rubik";
+    font-size: 12px;
+    font-weight: 400;
+    color: white;
+}
+
+.detaily{
+    width: 50%;
+    position: relative;
+    padding: 30px;
+    margin: 0px;
+}
+
+
+.nazev{
+    font-family: "Rubik";
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase; 
+    margin-top: 0px;
+}
+
+.produkt{
+    color: #959595;
+    font-family: "Rubik";
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+.popis{
+    font-family: 'Rubik';
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 30px;
+    border-bottom: 1.5px solid #06d7c1;
+    margin: 0px;
+}
+
+.parametr{
+    font-family: "Rubik";
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase; 
+    padding-top: 30px;
+    margin: 0px;
+}
+
+li{
+    display: inline-block;
+    font-family: "Rubik";
+    font-size: 14px;
+    font-weight: 400; 
+    margin: 9px;
+    padding: 0px;
+}
+
+.velikosti{
+    padding: 0px;
+}
+
+.vybrana{
+    color: #f15f42;
+    border: 1px solid #f15f42;
+    border-radius: 50%;
+    padding: 3px;
+}
+
+.tlacitko{
+    font-family: "Rubik";
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    border: 2px;
+    background-color: #f15f42;
+    padding: 15px 30px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px #f5f5f5;
+    
+
+}
+
+.akce{
+    position: absolute;
+    bottom: 45px;
+    left: 30px;
+}
